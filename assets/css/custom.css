@@ -13,7 +13,7 @@ body{
 
 .bg-primary {
     padding-top: 0%;
-    background-image: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif") !important;
+    background: url("https://media.giphy.com/media/TnJ3Mz4xarESA/giphy.gif") !important;
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +21,9 @@ body{
 }
 
 .navPosition {
-    padding-bottom: 7%;;
+    padding-bottom: 7%;
+    background-image: url("") !important;
+
 }
 
 @media screen and (max-width: 710px) {
@@ -99,7 +101,7 @@ body{
 .profilePic {
     width: 80%;
     border-style: solid;
-    border-color: rgb(253, 216, 8);
+    border-color: rgb(255, 255, 255);
     border-width: 15px;
     border-bottom-width: 60px;
     border-radius: 50%;
@@ -111,17 +113,18 @@ body{
 
 .aboutSection {
     text-align: center;
-    color: black;
+    color: white;
     padding-bottom: 4%;
     padding-top: 1%;
-    background: url("https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif") !important;
+    background: url("https://thumbs.gfycat.com/OptimisticSnivelingAmericanshorthair-size_restricted.gif") !important;
 }
 
 .paragraph {
     text-align: left;
-    color: black;
+    color: white;
     font-weight:bolder;
     font-size: 150%;
+    /* background: url("https://media.giphy.com/media/8JNhmGOn981a77Jl0u/giphy.gif") !important; */
 }
 
 .portfolio {
@@ -129,7 +132,7 @@ body{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 5%;
-    background: url("https://media.giphy.com/media/zW0n7AIWG4ka4/giphy.gif") !important;
+    background: url("https://media.giphy.com/media/vCYaivFao890s/giphy.gif") !important;
 }
 
 .thumbnailWrapper {
@@ -151,7 +154,7 @@ body{
 }
 
 .projectName {
-    color: rgb(252, 252, 252) !important;
+    color: rgb(255, 255, 255) !important;
     font-weight: bolder;
 }
 
@@ -162,21 +165,23 @@ body{
 }
 
 .bg-info{
-    background-color: #A5CFC9 !important;
-    background: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif") !important;
+    color: rgb(222, 152, 243);
+    background-color: silver !important;
+    background: url("https://media.giphy.com/media/lEzYXq0ci15OU/giphy.gif") !important;
 }
 
 button {
     border-radius: 5px;
     margin-bottom: 1%;
-    background-color: #A5CFC9;
+    background-color: silver;
     border-color: black;
     padding-bottom:7px;
+    background-image: url("https://thumbs.gfycat.com/NastyHighAntelope-small.gif") !important;
 }
 
 button:hover {
     background-color: black;
-    color: #A5CFC9;
+    color: silver;
 }
 
 .footer {
@@ -186,4 +191,7 @@ button:hover {
     font-size: 100%;
     padding: 1%;
 }
+
+.header {
+
 
